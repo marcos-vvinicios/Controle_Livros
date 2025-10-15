@@ -1,0 +1,5 @@
+## Uso futuro de estruturas avançadas
+
+1.	Structs: Para agrupar informações de cada aluno (nome, notas, média).
+2.	Vetores: Para armazenar todos os alunos e resultados, facilitando loops e ordenação.
+3.	Funções: Blocos lógicos podem virar funções no código final (lerDados(), calcularMedia(), exibirResultados()).

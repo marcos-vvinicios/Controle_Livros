@@ -1,0 +1,31 @@
+INÍCIO
+    opção ← -1
+
+    ENQUANTO opção ≠ 0 FAÇA
+        Exibir menu:
+            1 - Cadastrar livro
+            2 - Registrar empréstimo
+            3 - Registrar devolução
+            4 - Listar livros
+            0 - Sair
+        Ler opção
+
+        SE opção = 1 ENTÃO
+            Ler título, autor, código, quantidade
+            Armazenar livro
+        SENÃO SE opção = 2 ENTÃO
+            Ler código e nome do leitor
+            SE livro disponível ENTÃO
+                Atualizar quantidade (-1)
+                Registrar empréstimo
+            FIMSE
+        SENÃO SE opção = 3 ENTÃO
+            Ler código do livro
+            Atualizar quantidade (+1)
+        SENÃO SE opção = 4 ENTÃO
+            Exibir lista de livros
+        FIMSE
+    FIMENQUANTO
+
+    Exibir "Sistema encerrado."
+FIM

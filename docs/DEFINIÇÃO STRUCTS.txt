@@ -1,0 +1,35 @@
+DEFINIÇÃO STRUCTS
+Struct 1: Livro
+A struct organiza todas os arrays do tipo char e variáveis do tipo int no sistema.
+Campos: 
+- Char codigo[20]
+- Char titulo[100]
+- Char autor[100]
+-  Int quant
+-  Int dispo
+Uso de arrays: sim.
+Tamanho máximo dos arrays: 100
+Justificativa: O sistema faz o cadastro dos livros por base nas informações apresentadas.
+Struct 2: Beneficiário
+A struct organiza todas os arrays do tipo char no sistema.
+Campos: 
+- Char id[20]
+- Char nome[100]
+- Char telefone[15]
+Uso de arrays: sim.
+Tamanho máximo dos arrays: 100
+Justificativa: O sistema faz o cadastro do beneficiário por meio das informações nos arrays preenchidos.
+Struct 3: Empréstimo
+A struct organiza todas os arrays do tipo char no sistema.
+Campos: 
+- Char codigoLivro[20]
+- Char idBeneficiario[20]
+- Char dataEmprestimo[11]
+- Char status[20]
+
+Uso de arrays: sim.
+Tamanho máximo dos arrays: 20
+Justificativa: O sistema faz a busca do livro e informa se ela esta emprestado ou devolvido por meio das informações armazenadas.
+
+
+

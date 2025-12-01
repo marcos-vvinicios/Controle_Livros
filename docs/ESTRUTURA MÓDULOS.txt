@@ -1,0 +1,51 @@
+ESTRUTURA: MÓDULOS
+Módulo 1: livros.c
+Dependente do header “biblioteca.h”
+Bibliotecas usadas: <stdio.h>, <string.h>
+Funções incluídas: 
+* void cadastroLivro(Livro livros[], int *totaLivros) – faz o cadastro dos livros,
+* void listLivros(Livro livros[], int *totallivros) – faz a listagem dos livros.
+Structs usadas: Livro;
+As funções foram agrupadas neste módulo, pois todas são relacionadas a manipulação básica dos livros (a primeira camada da biblioteca)
+
+Módulo 2: beneficiarios.c
+Dependente do header “biblioteca.h”
+Bibliotecas usadas: <stdio.h>, <string.h>
+Funções incluídas: 
+* void cadastrarBeneficiario(Beneficiario beneficiarios[], int *totalBeneficiarios) – faz o cadastro dos beneficiários.
+* void listBeneficiarios(Beneficiario beneficiarios[], int *totalBeneficiarios) – faz listagem dos beneficiarios
+Structs usadas: Beneficiario;
+As funções foram agrupadas neste módulo, pois todas são relacionadas ao registro dos beneficiários (a segunda camada da biblioteca).
+
+Módulo 3: utilitarios.c
+Dependente do header “biblioteca.h”
+Bibliotecas usadas: <stdio.h>.
+Funções incluídas: 
+* void limpBuffer(); - Limpa o buffer
+* void pause(); - faz uma pause e espera a tecla Enter ser pressionada.
+* Int showMenu(); - menu para navegação dentro da biblioteca
+Structs usadas: nenhuma.
+As funções foram agrupadas neste módulo, pois todas são funções utilitárias para melhor uso da biblioteca (esqueleto do sistema).
+
+Módulo 4: emprestimo.c
+Dependente do header “biblioteca.h”
+Bibliotecas usadas: <stdio.h>, <string.h>
+Funções incluídas: 
+* void realizarEmprest(Livro livros[], int *totalLivros, Emprestimo emprestimos[], int *totalEmprestimo) – realiza o empréstimo dos livros.
+* void registrarDev(Livro livros[], int *totalLivros, Emprestimo emprestimos[], int *totalEmprestimo) – registra a devolução dos livros.
+* void listEmprestimos(Emprestimo emprestimos[], int *total) – faz a listagem de disponibilidade dos livros.
+
+Structs usadas: Livro, Beneficiário e Empréstimo.
+As funções foram agrupadas neste módulo, pois todas são relacionadas a função principal da biblioteca de manipulação dos livros (terceira camada da biblioteca).
+
+Módulo 5: main.c
+Dependente do header “biblioteca.h”
+Bibliotecas usadas: <stdio.h>, <string.h>, <stdlib.h>
+Funções incluídas: 
+* int main() – é o sistema completo
+Structs usadas: Livro, Beneficiário e Empréstimo.
+Esse é o módulo que forma a biblioteca por completo (sistema inteiro).
+
+
+
+

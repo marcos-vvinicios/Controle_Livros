@@ -1,0 +1,8 @@
+REFATORAÇÃO
+Relatório de refatoração Parte 2 – Parte 3:
+Em suma, a modularização foi simples e rápida de fazer, já que o sistema já estava separado em structs e funções para cada opção do menu. Apenas separamos o header e separamos os arquivos .c. Porém houve um problema
+Problema 1 (único): 
+Data: 25/11/2025
+Arquivo: main.c
+Após concluir a modularização, na fase de testes a IDE utilizada (CLion) não tinha criado o CMakeList,  portanto falhava na hora de compilar, mesmo reescrevendo o CMakeList do zero, por algum motivo não era reconhecido
+A solução foi criar um novo projeto pra que o CMakeList fosse feito pela própria IDE, após isso o programa só compilava o arquivo main.c resultando em tal erro: ndefined reference to `showMenu' , o que foi facilmente resolvido apenas mudando a Run Configuration do CLion.

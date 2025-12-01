@@ -18,3 +18,14 @@ Marcos Vinicius / Jackson Silva
 1.	Structs: Para agrupar informações de cada aluno (nome, notas, média).
 2.	Vetores: Para armazenar todos os alunos e resultados, facilitando loops e ordenação.
 3.	Funções: Blocos lógicos podem virar funções no código final (lerDados(), calcularMedia(), exibirResultados()
+   
+## Etapas Concluídas
+1.  Structs adicionados
+2.  Separação de funções
+3.  Modularização e criação do header
+
+## Dificuldades na criação do projeto:
+1.  Criação do código
+2.  Entender as etapas de compilação
+
+Após a modularização desenvolver o projeto por completo foi extremamente tranquilo

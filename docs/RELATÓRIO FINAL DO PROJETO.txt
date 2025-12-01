@@ -1,0 +1,26 @@
+RELATÓRIO FINAL DO PROJETO
+
+ /*Projeto: Controle de Livros
+/Autor: Marcos Vinicius / Jackson Silva
+Data de criação: 15/11/2025
+Data de conclusão: 01/12/2025
+
+Descrição: Programa em C para gerenciar o empréstimo e devolução de livros em uma biblioteca.
+*/
+
+Desafio encontrados:
+ 
+Na IDE, solidificar o projeto mesmo com o guia e o planejamento, foi um pouco complicado
+implementar as funções desejadas e entender como seria seu seguimento.
+
+Aprendizados:
+
+O conceito de recursividade foi amplamente utilizado e desenvolvido
+A modularização também é um dos aspectos a serem citados mostrando que simplifica muito o código
+sem alterar o sistema
+A utilização de ponteiros foi essencial para a manipulação de dados
+
+Mudanças: 
+
+Talvez uma automatização do cadastro dos livros com uma busca online, mas para isso a linguagem de
+veria ser alterada para Python

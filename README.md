@@ -1,4 +1,4 @@
-# Projeto: Controle de Notas
+# Projeto: Sistema Bibliotecário
 
 ## Objetivo Geral
 Desenvolver um sistema em C para controlar notas de Livros, localizar livros rapidamente e ter um histórico confiável de empréstimos
